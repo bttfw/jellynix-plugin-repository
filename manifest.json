@@ -1,4 +1,5 @@
-﻿{
+[
+{
     "category":  "General",
     "guid":  "e603fc52-a00e-44ba-9884-dc3d5bcbc509",
     "name":  "Jellynix",
@@ -7,12 +8,13 @@
     "overview":  "Privacy-first Jellyfin recommendations with a local sidecar",
     "versions":  [
                      {
-                         "checksum":  "b68c02ad17c92390406185bf000de189",
+                         "checksum":  "1a1e99d8ee9b4deb5a95ad087fdc575c",
                          "changelog":  "Initial scaffold with local sidecar connectivity, admin configuration, and authenticated health-check plumbing.",
                          "targetAbi":  "10.11.0.0",
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.0.zip",
-                         "timestamp":  "2026-04-03T11:42:02Z",
+                         "timestamp":  "2026-04-03T12:30:43Z",
                          "version":  "0.1.0.0"
                      }
                  ]
 }
+]

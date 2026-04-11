@@ -23,6 +23,14 @@
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.1.zip",
                          "timestamp":  "2026-04-11T20:15:00Z",
                          "version":  "0.1.0.1"
+                     },
+                     {
+                         "checksum":  "8951f31734375f60d9f2a498557004e1",
+                         "changelog":  "Polished the Jellyfin pairing wizard layout with a card-based admin UI, clearer hierarchy, and better native Jellyfin controls.",
+                         "targetAbi":  "10.11.8.0",
+                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.2.zip",
+                         "timestamp":  "2026-04-11T20:35:00Z",
+                         "version":  "0.1.0.2"
                      }
                  ]
 }

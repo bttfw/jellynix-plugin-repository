@@ -8,11 +8,11 @@
     "overview":  "Privacy-first Jellyfin recommendations with a local sidecar",
     "versions":  [
                      {
-                         "checksum":  "dc8b7f37a60af713ed44436fe6eece77",
-                         "changelog":  "Live installation build with server-scoped feature isolation, read-only historical import support, and the current Jellynix bridge behavior.",
+                         "checksum":  "6bccb5ae96ddcdd2b9b250953490c974",
+                         "changelog":  "Live installation build with the plugin pairing wizard, protected local bridge credentials, and the Jellyfin settings-page wrapper fix.",
                          "targetAbi":  "10.11.8.0",
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.0.zip",
-                         "timestamp":  "2026-04-11T17:19:32.5284791+00:00",
+                         "timestamp":  "2026-04-11T19:51:13Z",
                          "version":  "0.1.0.0"
                      }
                  ]

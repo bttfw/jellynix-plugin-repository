@@ -31,6 +31,14 @@
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.2.zip",
                          "timestamp":  "2026-04-11T20:35:00Z",
                          "version":  "0.1.0.2"
+                     },
+                     {
+                         "checksum":  "dff9ac1eae4e25e1cee80cc908dfdf9f",
+                         "changelog":  "Fixed the plugin wizard fragment so inline styles load inside Jellyfin, status refresh initializes immediately, and the action buttons use reliable native HTML controls.",
+                         "targetAbi":  "10.11.8.0",
+                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.3.zip",
+                         "timestamp":  "2026-04-11T20:55:00Z",
+                         "version":  "0.1.0.3"
                      }
                  ]
 }

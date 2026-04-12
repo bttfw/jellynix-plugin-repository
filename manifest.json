@@ -1,4 +1,3 @@
-[
 {
     "category":  "General",
     "guid":  "e603fc52-a00e-44ba-9884-dc3d5bcbc509",
@@ -14,8 +13,7 @@
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.0.zip",
                          "timestamp":  "2026-04-11T19:51:13Z",
                          "version":  "0.1.0.0"
-                     }
-                     ,
+                     },
                      {
                          "checksum":  "6bccb5ae96ddcdd2b9b250953490c974",
                          "changelog":  "Cache-busting republish of the live installation build with the plugin pairing wizard, protected local bridge credentials, and the Jellyfin settings-page wrapper fix.",
@@ -47,7 +45,14 @@
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.4.zip",
                          "timestamp":  "2026-04-12T11:46:10Z",
                          "version":  "0.1.0.4"
+                     },
+                     {
+                         "checksum":  "9458b1b93abe194cf7d63818f9fc2493",
+                         "changelog":  "Carries the restart-safe plugin storage, calmer bridge backlog view, left Plugins navigation registration, and the separate jellynix-home hub route as a fresh installable plugin package after the 0.1.0.4 live cache path turned out to be too sticky for reliable host-side verification.",
+                         "targetAbi":  "10.11.8.0",
+                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.5.zip",
+                         "timestamp":  "2026-04-12T19:59:35Z",
+                         "version":  "0.1.0.5"
                      }
                  ]
 }
-]

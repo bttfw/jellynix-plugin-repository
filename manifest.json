@@ -39,6 +39,14 @@
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.3.zip",
                          "timestamp":  "2026-04-11T20:55:00Z",
                          "version":  "0.1.0.3"
+                     },
+                     {
+                         "checksum":  "dc69afce23dd58fcd1449c29a797235c",
+                         "changelog":  "Hardened the pairing wizard so Save Settings and Test Connection initialize reliably inside Jellyfin admin, disable during requests, and surface inline errors instead of failing silently.",
+                         "targetAbi":  "10.11.8.0",
+                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.4.zip",
+                         "timestamp":  "2026-04-12T11:46:10Z",
+                         "version":  "0.1.0.4"
                      }
                  ]
 }

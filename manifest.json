@@ -61,6 +61,14 @@
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.6.zip",
                          "timestamp":  "2026-04-12T20:41:49Z",
                          "version":  "0.1.0.6"
+                     },
+                     {
+                         "checksum":  "e6f735d872552008939e0a916a24a886",
+                         "changelog":  "Ships the current Jellynix user-home fallback flow, including the separate Jellynix hub route, restart-safe protected bridge state, left-plugin navigation, and the latest pairing-wizard and home-layout improvements.",
+                         "targetAbi":  "10.11.8.0",
+                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.7.zip",
+                         "timestamp":  "2026-04-13T00:27:56Z",
+                         "version":  "0.1.0.7"
                      }
                  ]
 }]

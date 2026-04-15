@@ -69,6 +69,14 @@
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.7.zip",
                          "timestamp":  "2026-04-13T00:27:56Z",
                          "version":  "0.1.0.7"
+                     },
+                     {
+                         "checksum":  "5ca6db8c41c4c66b287c89a15c0c4728",
+                         "changelog":  "Adds the fixed local-Ollama benchmark path for bachel, including operator benchmark status and archive surfaces, hub-side archived benchmark rows, and the latest sidecar-owned benchmark model catalog and web-search orchestration.",
+                         "targetAbi":  "10.11.8.0",
+                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.8.zip",
+                         "timestamp":  "2026-04-15T19:32:03Z",
+                         "version":  "0.1.0.8"
                      }
                  ]
 }]

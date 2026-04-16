@@ -1,4 +1,4 @@
-[{
+﻿{
     "category":  "General",
     "guid":  "e603fc52-a00e-44ba-9884-dc3d5bcbc509",
     "name":  "Jellynix",
@@ -77,6 +77,14 @@
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.8.zip",
                          "timestamp":  "2026-04-15T19:32:03Z",
                          "version":  "0.1.0.8"
+                     },
+                     {
+                         "checksum":  "c2f9e86c686ebdbb28a2fadaa18e28ea",
+                         "changelog":  "Adds Seerr-backed requestable discovery to Jellynix, including card badges, request/status actions, the new request dialog, fifteen-card horizontal rows, and the latest hub and native-home UI updates.",
+                         "targetAbi":  "10.11.8.0",
+                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.9.zip",
+                         "timestamp":  "2026-04-16T21:52:31Z",
+                         "version":  "0.1.0.9"
                      }
                  ]
-}]
+}

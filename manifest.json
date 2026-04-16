@@ -6,7 +6,8 @@
     "owner":  "bttfw",
     "overview":  "Privacy-first Jellyfin recommendations with a local sidecar",
     "versions":  [
-                     {
+[
+{
                          "checksum":  "6bccb5ae96ddcdd2b9b250953490c974",
                          "changelog":  "Live installation build with the plugin pairing wizard, protected local bridge credentials, and the Jellyfin settings-page wrapper fix.",
                          "targetAbi":  "10.11.8.0",
@@ -88,3 +89,4 @@
                      }
                  ]
 }
+]

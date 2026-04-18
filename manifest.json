@@ -1,98 +1,100 @@
-﻿{
-    "category":  "General",
-    "guid":  "e603fc52-a00e-44ba-9884-dc3d5bcbc509",
-    "name":  "Jellynix",
-    "description":  "Jellynix adds private recommendation playlists and item-scoped recommendation retrieval backed by a strictly local sidecar service.",
-    "owner":  "bttfw",
-    "overview":  "Privacy-first Jellyfin recommendations with a local sidecar",
-    "versions":  [
-                     {
-                         "checksum":  "6bccb5ae96ddcdd2b9b250953490c974",
-                         "changelog":  "Live installation build with the plugin pairing wizard, protected local bridge credentials, and the Jellyfin settings-page wrapper fix.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.0.zip",
-                         "timestamp":  "2026-04-11T19:51:13Z",
-                         "version":  "0.1.0.0"
-                     },
-                     {
-                         "checksum":  "6bccb5ae96ddcdd2b9b250953490c974",
-                         "changelog":  "Cache-busting republish of the live installation build with the plugin pairing wizard, protected local bridge credentials, and the Jellyfin settings-page wrapper fix.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.1.zip",
-                         "timestamp":  "2026-04-11T20:15:00Z",
-                         "version":  "0.1.0.1"
-                     },
-                     {
-                         "checksum":  "8951f31734375f60d9f2a498557004e1",
-                         "changelog":  "Polished the Jellyfin pairing wizard layout with a card-based admin UI, clearer hierarchy, and better native Jellyfin controls.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.2.zip",
-                         "timestamp":  "2026-04-11T20:35:00Z",
-                         "version":  "0.1.0.2"
-                     },
-                     {
-                         "checksum":  "dff9ac1eae4e25e1cee80cc908dfdf9f",
-                         "changelog":  "Fixed the plugin wizard fragment so inline styles load inside Jellyfin, status refresh initializes immediately, and the action buttons use reliable native HTML controls.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.3.zip",
-                         "timestamp":  "2026-04-11T20:55:00Z",
-                         "version":  "0.1.0.3"
-                     },
-                     {
-                         "checksum":  "dc69afce23dd58fcd1449c29a797235c",
-                         "changelog":  "Hardened the pairing wizard so Save Settings and Test Connection initialize reliably inside Jellyfin admin, disable during requests, and surface inline errors instead of failing silently.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.4.zip",
-                         "timestamp":  "2026-04-12T11:46:10Z",
-                         "version":  "0.1.0.4"
-                     },
-                     {
-                         "checksum":  "9458b1b93abe194cf7d63818f9fc2493",
-                         "changelog":  "Carries the restart-safe plugin storage, calmer bridge backlog view, left Plugins navigation registration, and the separate jellynix-home hub route as a fresh installable plugin package after the 0.1.0.4 live cache path turned out to be too sticky for reliable host-side verification.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.5.zip",
-                         "timestamp":  "2026-04-12T19:59:35Z",
-                         "version":  "0.1.0.5"
-                     },
-                     {
-                         "checksum":  "1cb33210e7b2c8223867af4349372005",
-                         "changelog":  "Restores bridge-state persistence across plugin updates by migrating legacy protected stores, backing up unreadable credential and queue files, and keeping future pairing and buffered events stable across restarts.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.6.zip",
-                         "timestamp":  "2026-04-12T20:41:49Z",
-                         "version":  "0.1.0.6"
-                     },
-                     {
-                         "checksum":  "e6f735d872552008939e0a916a24a886",
-                         "changelog":  "Ships the current Jellynix user-home fallback flow, including the separate Jellynix hub route, restart-safe protected bridge state, left-plugin navigation, and the latest pairing-wizard and home-layout improvements.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.7.zip",
-                         "timestamp":  "2026-04-13T00:27:56Z",
-                         "version":  "0.1.0.7"
-                     },
-                     {
-                         "checksum":  "5ca6db8c41c4c66b287c89a15c0c4728",
-                         "changelog":  "Adds the fixed local-Ollama benchmark path for bachel, including operator benchmark status and archive surfaces, hub-side archived benchmark rows, and the latest sidecar-owned benchmark model catalog and web-search orchestration.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.8.zip",
-                         "timestamp":  "2026-04-15T19:32:03Z",
-                         "version":  "0.1.0.8"
-                     },
-                     {
-                         "checksum":  "c2f9e86c686ebdbb28a2fadaa18e28ea",
-                         "changelog":  "Adds Seerr-backed requestable discovery to Jellynix, including card badges, request/status actions, the new request dialog, fifteen-card horizontal rows, and the latest hub and native-home UI updates.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.9.zip",
-                         "timestamp":  "2026-04-16T21:52:31Z",
-                         "version":  "0.1.0.9"
-                     },
-                     {
-                         "checksum":  "cf22a237fa49dcd8e7fbf46c0f7b2793",
-                         "changelog":  "Removes the leftover per-row AI subtitle from the Jellynix hub and guarded native-home surfaces, and ships the new remote-control operator auth path for live-sidecar steering from a trusted workstation.",
-                         "targetAbi":  "10.11.8.0",
-                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.10.zip",
-                         "timestamp":  "2026-04-18T21:30:27Z",
-                         "version":  "0.1.0.10"
-                     }
-                 ]
-}
+[
+  {
+    "category": "General",
+    "guid": "e603fc52-a00e-44ba-9884-dc3d5bcbc509",
+    "name": "Jellynix",
+    "description": "Jellynix adds private recommendation playlists and item-scoped recommendation retrieval backed by a strictly local sidecar service.",
+    "owner": "bttfw",
+    "overview": "Privacy-first Jellyfin recommendations with a local sidecar",
+    "versions": [
+      {
+        "checksum": "6bccb5ae96ddcdd2b9b250953490c974",
+        "changelog": "Live installation build with the plugin pairing wizard, protected local bridge credentials, and the Jellyfin settings-page wrapper fix.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.0.zip",
+        "timestamp": "2026-04-11T19:51:13Z",
+        "version": "0.1.0.0"
+      },
+      {
+        "checksum": "6bccb5ae96ddcdd2b9b250953490c974",
+        "changelog": "Cache-busting republish of the live installation build with the plugin pairing wizard, protected local bridge credentials, and the Jellyfin settings-page wrapper fix.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.1.zip",
+        "timestamp": "2026-04-11T20:15:00Z",
+        "version": "0.1.0.1"
+      },
+      {
+        "checksum": "8951f31734375f60d9f2a498557004e1",
+        "changelog": "Polished the Jellyfin pairing wizard layout with a card-based admin UI, clearer hierarchy, and better native Jellyfin controls.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.2.zip",
+        "timestamp": "2026-04-11T20:35:00Z",
+        "version": "0.1.0.2"
+      },
+      {
+        "checksum": "dff9ac1eae4e25e1cee80cc908dfdf9f",
+        "changelog": "Fixed the plugin wizard fragment so inline styles load inside Jellyfin, status refresh initializes immediately, and the action buttons use reliable native HTML controls.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.3.zip",
+        "timestamp": "2026-04-11T20:55:00Z",
+        "version": "0.1.0.3"
+      },
+      {
+        "checksum": "dc69afce23dd58fcd1449c29a797235c",
+        "changelog": "Hardened the pairing wizard so Save Settings and Test Connection initialize reliably inside Jellyfin admin, disable during requests, and surface inline errors instead of failing silently.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.4.zip",
+        "timestamp": "2026-04-12T11:46:10Z",
+        "version": "0.1.0.4"
+      },
+      {
+        "checksum": "9458b1b93abe194cf7d63818f9fc2493",
+        "changelog": "Carries the restart-safe plugin storage, calmer bridge backlog view, left Plugins navigation registration, and the separate jellynix-home hub route as a fresh installable plugin package after the 0.1.0.4 live cache path turned out to be too sticky for reliable host-side verification.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.5.zip",
+        "timestamp": "2026-04-12T19:59:35Z",
+        "version": "0.1.0.5"
+      },
+      {
+        "checksum": "1cb33210e7b2c8223867af4349372005",
+        "changelog": "Restores bridge-state persistence across plugin updates by migrating legacy protected stores, backing up unreadable credential and queue files, and keeping future pairing and buffered events stable across restarts.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.6.zip",
+        "timestamp": "2026-04-12T20:41:49Z",
+        "version": "0.1.0.6"
+      },
+      {
+        "checksum": "e6f735d872552008939e0a916a24a886",
+        "changelog": "Ships the current Jellynix user-home fallback flow, including the separate Jellynix hub route, restart-safe protected bridge state, left-plugin navigation, and the latest pairing-wizard and home-layout improvements.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.7.zip",
+        "timestamp": "2026-04-13T00:27:56Z",
+        "version": "0.1.0.7"
+      },
+      {
+        "checksum": "5ca6db8c41c4c66b287c89a15c0c4728",
+        "changelog": "Adds the fixed local-Ollama benchmark path for bachel, including operator benchmark status and archive surfaces, hub-side archived benchmark rows, and the latest sidecar-owned benchmark model catalog and web-search orchestration.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.8.zip",
+        "timestamp": "2026-04-15T19:32:03Z",
+        "version": "0.1.0.8"
+      },
+      {
+        "checksum": "c2f9e86c686ebdbb28a2fadaa18e28ea",
+        "changelog": "Adds Seerr-backed requestable discovery to Jellynix, including card badges, request/status actions, the new request dialog, fifteen-card horizontal rows, and the latest hub and native-home UI updates.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.9.zip",
+        "timestamp": "2026-04-16T21:52:31Z",
+        "version": "0.1.0.9"
+      },
+      {
+        "checksum": "cf22a237fa49dcd8e7fbf46c0f7b2793",
+        "changelog": "Removes the leftover per-row AI subtitle from the Jellynix hub and guarded native-home surfaces, and ships the new remote-control operator auth path for live-sidecar steering from a trusted workstation.",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.10.zip",
+        "timestamp": "2026-04-18T21:30:27Z",
+        "version": "0.1.0.10"
+      }
+    ]
+  }
+]

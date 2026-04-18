@@ -1,5 +1,4 @@
-[
-{
+﻿{
     "category":  "General",
     "guid":  "e603fc52-a00e-44ba-9884-dc3d5bcbc509",
     "name":  "Jellynix",
@@ -86,7 +85,14 @@
                          "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.9.zip",
                          "timestamp":  "2026-04-16T21:52:31Z",
                          "version":  "0.1.0.9"
+                     },
+                     {
+                         "checksum":  "cf22a237fa49dcd8e7fbf46c0f7b2793",
+                         "changelog":  "Removes the leftover per-row AI subtitle from the Jellynix hub and guarded native-home surfaces, and ships the new remote-control operator auth path for live-sidecar steering from a trusted workstation.",
+                         "targetAbi":  "10.11.8.0",
+                         "sourceUrl":  "https://raw.githubusercontent.com/bttfw/jellynix-plugin-repository/main/packages/jellynix_0.1.0.10.zip",
+                         "timestamp":  "2026-04-18T21:30:27Z",
+                         "version":  "0.1.0.10"
                      }
                  ]
 }
-]
